@@ -49,7 +49,7 @@ def save_to_csv(data, output_file):
     df.to_csv(output_file, index=False)
 
 if __name__ == "__main__":
-    input_directory = "D:\\Users\\liuya\\download\\shell"
+    input_directory = "D:\\Users\\test\\download\\shell"
     output_csv = "output.csv"
     data = process_directory(input_directory)
     save_to_csv(data, output_csv)
