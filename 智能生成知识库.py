@@ -3,8 +3,8 @@ import openai
 import pandas as pd
 from docx import Document
 
-openai.api_key = 'sk-SafMVoQpW4bgMdmL9826E890BcEa45D89fA7E954EdF838B9'
-openai.api_base = 'https://chatapi.asiainfo-sec.com/v1'
+openai.api_key = '你的openaikey'
+openai.api_base = 'openai地址'
 
 def read_word_file(file_path):
     doc = Document(file_path)
